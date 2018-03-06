@@ -12,6 +12,7 @@
 		16714E43204ECDE40089A6DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16714E41204ECDE40089A6DE /* Main.storyboard */; };
 		16714E45204ECDE40089A6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16714E44204ECDE40089A6DE /* Assets.xcassets */; };
 		16714E48204ECDE40089A6DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16714E46204ECDE40089A6DE /* LaunchScreen.storyboard */; };
+		16714E50204EF7E00089A6DE /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16714E4F204EF7E00089A6DE /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		16714E44204ECDE40089A6DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16714E47204ECDE40089A6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16714E49204ECDE40089A6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16714E4F204EF7E00089A6DE /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				16714E3D204ECDE40089A6DE /* AppDelegate.swift */,
 				16714E3F204ECDE40089A6DE /* ViewController.swift */,
+				16714E4F204EF7E00089A6DE /* Calculator.swift */,
 				16714E41204ECDE40089A6DE /* Main.storyboard */,
 				16714E44204ECDE40089A6DE /* Assets.xcassets */,
 				16714E46204ECDE40089A6DE /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				16714E40204ECDE40089A6DE /* ViewController.swift in Sources */,
 				16714E3E204ECDE40089A6DE /* AppDelegate.swift in Sources */,
+				16714E50204EF7E00089A6DE /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
