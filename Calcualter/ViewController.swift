@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var display: UILabel!
     
     @IBAction func numberButton(_ sender: UIButton) {
-        calculator.addToCalcualtion(character: sender.currentTitle!)
+        calculator.addToCalcualtion(number: sender.currentTitle!)
         updateDisplayFromModel()
     }
     
